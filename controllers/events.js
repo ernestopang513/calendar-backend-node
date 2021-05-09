@@ -35,9 +35,6 @@ const crearEvento = async(req, res = response ) =>{
             msg: 'Hable con el administrador'
         });
     }
-
-
-    
 };
 
 const actualizarEvento = async(req, res = response ) =>{
