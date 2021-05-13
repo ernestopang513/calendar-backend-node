@@ -110,7 +110,7 @@ const eliminarEvento = async(req, res = response ) =>{
 
         
 
-        const eventoEliminado = await Evento.findOneAndDelete(eventoId);
+        const eventoEliminado = await Evento.findByIdAndDelete(eventoId);
 
         res.json({
             ok: true,

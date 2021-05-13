@@ -107,7 +107,7 @@ const revalidarToken = async(req,res = response) =>{
         token,
         uid,
         name
-    })
+    });
 }
 
 
