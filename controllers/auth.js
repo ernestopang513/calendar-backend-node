@@ -70,7 +70,7 @@ const loginUsuario = async(req,res =response) =>{
         if (!validPassword){
             return res.status(400).json({
                 ok:false,
-                mgs:'Password incorrecto'
+                msg:'Password incorrecto'
             });
         }
         //Generar jason web token
